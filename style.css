@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(34, 34, 66, 0.966);
+    position: sticky;
+    top: 0;
+    display: flex;    
+}
+header img{
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+
+}
+header img:hover{
+    color: gold;
+    width: 200px;
+    height: 200px;
+
+}
+header form{
+text-align: center;
+color: white;
+font-size: 20px;
+margin-left: 1100px;
+margin-top: 100px;
+height: 100px;
+width: 100px;
+
+}
+h1{
+    color: orange;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    margin-top: 40px;
+    font-size: 50px;
+    font-style: italic;
+
+}
+img{
+    border-radius: 20%;
+    height: 200px;
+    width: 200px;
+}
+section{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/852/421/original/christmas-sale-banner-design-christmas-sale-in-elegant-golden-text-with-discount-for-xmas-seasonal-shopping-promotion-ads-illustration-vector.jpg);
+    background-size: cover;
+
+}
+.row{
+    background-size: cover;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0;
+}
+.col{
+    background-color: rgba(92, 185, 228, 0.308);
+    padding: 20px;
+    height: 450px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10%;
+}
+h3{
+    text-align: center;
+    color: aliceblue;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btn{
+    background-color: gold;
+    padding: 5px;
+    border-radius: 15%;
+    color: aliceblue;
+    
+}
+#btn:hover{
+    color: rgb(220, 83, 20);
+}
+.Banner{
+    background-image: url(https://i.pinimg.com/originals/5b/ff/5f/5bff5f2a8799026d964e0d6922188e41.jpg);
+    background-size: cover;
+    height: 1200px;
+    width:100%;
+    position: top;
+    
+}
+.Banner h2{
+    text-align: center;
+    color:orange;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    padding-top: 250px;
+}
+section h1{
+    color: rgb(14, 13, 2);
+    background-color: rgba(255, 255, 255, 0.158);
+    background-size: contain;
+}
+
+footer{
+
+    background-color:white;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 850px;
+}
+footer img{
+    height: 75px;
+    width: 75px;
+}
+footer h3{
+    color: black;
+}
